@@ -28,5 +28,12 @@ def run_tests():
 
 # Edit this code
 def sq_sum(n):
+    y = 0
+    for i in range (1, n+1, 1):
+        y = y + (i * i)
+
+    print (y) 
+
+        
 
 

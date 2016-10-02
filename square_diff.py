@@ -33,5 +33,12 @@ def run_tests():
 
 # Edit this code
 def sq_diff(n):
+    x = 0
+    y = 0
+    for i in range (1, n+1, 1):
+        x = x + i
+        y = y + (i * i)
 
+    x = x * x
+    print (x - y)
 
